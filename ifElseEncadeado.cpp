@@ -10,6 +10,7 @@ int main(){
 
     if(n1==n2)
         printf("Os numero sao iguais");
+        printf("Por favor digite numeros diferentes!\n");
     else
         if (n1 > n2) 
             printf("O maior valor eh = %d", n1);
