@@ -8,10 +8,10 @@ int main(){
     printf("Digite o segundo numero:");
     scanf("%d", &n2);
 
-    if(n1==n2)
+    if(n1==n2){
         printf("Os numero sao iguais");
         printf("Por favor digite numeros diferentes!\n");
-    else
+    }else
         if (n1 > n2) 
             printf("O maior valor eh = %d", n1);
         else
